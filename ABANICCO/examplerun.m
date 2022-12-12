@@ -13,7 +13,7 @@ an_im=imread(fullfile(directory2,'totoro.jpg'));
 
 wantfigure=1; % change to 0 if uninterested in obtaining figures
 numberofshades=15; % number of colors detected per category
-morphology=10; 
+morpho=10; 
 % This is the standard option to fill small holes and remove small objects of a 500x500 image.
 % Larger images will benefit from higher number. 
 % Smaller images should use a smaller option.
